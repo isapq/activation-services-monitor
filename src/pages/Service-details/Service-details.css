@@ -1,0 +1,132 @@
+@media (min-width: 319px) {
+    .containerPage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        align-items: center;
+    }
+
+    .titlePageServiceDetails {
+        font-size: 40px;
+        color: rgb(43, 43, 43);
+    }
+
+    .containerButtons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .containerButtons button {
+        width: 180px;
+        height: 60px;
+    }
+
+    .containerButtons button:hover {
+        box-shadow: 0 0.625em 1em 0 rgba(38, 59, 255, 0.35);
+        border-color: #4149dd;
+        background-color: aliceblue;
+        color: rgb(44, 44, 44);
+        transform: scale(1.05);
+        font-weight: 800;
+    }
+
+    .containerDetails {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background-color: rgba(255, 255, 255, 0.466);
+        margin-top: 20px;
+        border-radius: 20px;
+        color: rgb(36, 36, 36);
+    }
+
+    .containerDetails p {
+        margin-top: -10px;
+    }
+
+    .containerDetails h2 {
+        font-weight: 600px;
+    }
+
+    .containerTitleServiceDetails {
+        background: linear-gradient(180deg, #ffffff 0%, #d9ecff 100%);
+        width: 400px;
+        height: 80px;
+        position: absolute;
+        border-radius: 0 0 10px 10px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerReportAndImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .containerInput {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttonReport {
+        width: 350px;
+    }
+
+    .inputFile {
+        width: 200px;
+        border: 1px solid rgba(255, 255, 255, 0.445);
+        background-color: #ffffffa8;
+        color: #000000;
+    }
+
+    .buttonEdit {
+        position: absolute;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(180deg, #4A90E2 0%, #0057D9 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 190px;
+        left: calc(91% - 25px);
+        border: none;
+    }
+
+    .buttonEdit img {
+        width: 30px;
+    }
+
+    .buttonEdit:hover {
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 619px) {
+    .buttonReport {
+        width: 500px;
+    }
+
+    .containerInput {
+        flex-direction: row;
+    }
+
+    .buttonEdit {
+        position: fixed;
+        top: 780px;
+        left: calc(95% - 25px);
+    }
+}

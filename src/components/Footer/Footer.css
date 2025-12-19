@@ -1,0 +1,112 @@
+@media (min-width: 319px) {
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.747);
+        left: 0;
+        bottom: 0;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(24, 22, 22);
+    }
+
+    .divLogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .divLogo h3, .divLogo strong {
+        font-size: 12px;
+    }
+
+    .divLogo h3 {
+        width: 150px;
+        margin-bottom: 0;
+        margin-top: 7px;
+    }
+
+    .divLogo img {
+        width: 70px;
+        height: 30px;
+    }
+
+    .devBy {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .lineBlack {
+        height: 0;
+        width: 250px;
+        border: 0.5px solid rgba(255, 255, 255, 0.63);
+        border-radius: 20px;
+        margin-left: calc(50% - 125px);
+        margin-top: 7px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 1019px) {
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(255, 255, 255, 0.747);
+        left: 0;
+        bottom: 0;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(24, 22, 22);
+        gap: 10px;
+    }
+
+    .divLogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .divLogo img {
+        margin-top: 7px;
+        width: 85px;
+        height: 40px;
+    }
+
+    .divLogo h3 {
+        margin-top: 18px;
+        font-size: 18px;
+        width: 220px;
+    }
+
+    .divLogo strong {
+        color: black;
+        font-size: 18px;
+    }
+
+    .devBy {
+        margin-top: 31px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .devBy strong {
+        color: black;
+    }
+
+    .lineBlack {
+        width: 0;
+        height: 40px;
+        border: solid 1px rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-top: 18px;
+        margin-left: 0;
+    }
+}
