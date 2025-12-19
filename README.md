@@ -1,4 +1,4 @@
-# Activation Service Manager
+# Activation Services Monitor
 
 System for managing and monitoring insurance activation services.
 
@@ -24,8 +24,6 @@ The system also includes authentication with login and password to ensure secure
 
 ## 🛠️ Technologies
 
-_(Adjust according to your project)_
-
 - Front-end: React.js / HTML / CSS / JavaScript
 - Back-end: Node.js / Express
 - Database: PostgreSQL / MySQL
@@ -36,18 +34,7 @@ _(Adjust according to your project)_
 
 ## 📂 Project Status
 
-🚧 Work in progress  
-New features and improvements are being implemented.
-
----
-
-## 📈 Future Improvements
-
-- Role-based access control
-- Service history and logs
-- Search and filters
-- Responsive layout
-- API documentation
+🚧 Work in progress
 
 ---
 
