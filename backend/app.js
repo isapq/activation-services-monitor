@@ -4,6 +4,7 @@ import User from './models/User.js'
 import reportRoutes from './src/routes/report-route.js';
 import createServiceRoutes from './src/routes/create-service-route.js'
 import servicesRoutes from './src/routes/services-route.js';
+import modifyRoutes from './src/routes/modify-service-controler-route.js';
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.get('/users', async (req, res) => {
 app.use('/report', reportRoutes);
 app.use('/createService', createServiceRoutes);
 app.use('/services', servicesRoutes);
+app.use('/modifyService', modifyRoutes);
 
 
 export default app;

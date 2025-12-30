@@ -171,7 +171,7 @@ export const ServiceDatails = () => {
                     </button>
                 </div>
 
-                {edit && <EditinService />}
+                {edit && <EditinService onClose={() => setEdit(false)} />}
 
                 <button className="buttonEdit" onClick={() => setEdit(true)}>
                     <img src={iconEdit} alt="Icon Edit" />
